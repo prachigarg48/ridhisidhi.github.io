@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Document </title>
+<!-- bootstrap css-->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<style>
+ul li{
+  padding-left:15px;
+  font-size:18px;
+}
+.btn-info{
+  background-color:pink;
+  border:pink;
+}
+ul li:hover  {
+    background-color:lavenderblush;
+    padding:2px;
+    border-radius: 8px;
+    
+}
+.bg-img {
+  /* The image used */
+  background-image: url("k10.jpg");
+
+  min-height:750px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container1 {
+  position: absolute;
+  right: 0;
+  
+  
+margin:100px;
+
+  max-width: 300px;
+  padding: 50px;
+  background-color: #434e5a;
+  opacity: .8;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn1 {
+  background-color:pink;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn1:hover {
+  opacity: 1;
+}
+.footer{
+  background-color:black;
+}
+.footerbackground{
+  background-color:#3c3c3c;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg py-2 navbar-dark bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="logo.png" width="200px" alt="" class="d-inline-block align-middle mr-2 img-fluid">
+    </a>
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bg-dark"><span class="navbar-toggler-icon"></span></button>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">      
+        <li class="nav-item"><a href="index.html" class="nav-link"><font color="black">Home </font><span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link"><font color="black">About Us</font></a></li>
+        <li class="nav-item"><a href="online.html" class="nav-link"><font color="black">Online Yoga</font></a></li>
+        <li class="nav-item"><a href="vacation.html" class="nav-link"><font color="black">Yoga Vacation</font></a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link"><font color="black">Contact Us</font></a></li>
+        <li class="nav-item">
+      <a href="signin.html" class="btn btn-info" role="button">Sign In</a>
+    </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="bg-img">
+  <form action="/action_page.php" class="container1">
+    <h1 align="center"><b><font color="white">Login</font></b>
+    <hr style="width:20%;" size="2" align="center" color="pink">    
+    </h1>
+<br> 
+    <label for="email"><b><font color="white">Email</font></b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+<br>
+    <label for="psw"><b><font color="white">Password</font></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br> <br>
+    <button type="submit" class="btn1"><font color="black"><b>Login</b.</font></button>
+  </form>
+</div> <br> <br>
+<br> <br>
+<footer class="page-footer font-small unique-color-dark">
+  <br>
+  <!-- Footer Links -->
+  <div class="footerbackground">
+  <div class="container text-center text-md-left mt-5">
+<br><br>
+    <!-- Grid row -->
+    <div class="row mt-3">
+<br><br><br>
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <font color="white">
+        <h6 class="text-uppercase font-weight-bold">RIDHI-SIDHI CENTRES IN INDIA <hr style="width:50%;" size="2" color="pink"></h6>
+        <p>
+        Dwarka Centre, Delhi West
+        <br>Nataraja Centre, Delhi South
+        <br>Chennai Centre, Tamil Nadu
+        <br>Madurai Centre, Tamil Nadu
+        </p>
+        </font>
+      </div>
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <font color="white">
+        <h6 class="text-uppercase font-weight-bold">RIDHI-SIDHI ASHRAMS IN INDIA
+        <hr style="width:50%;" size="2" color="pink">
+        </h6>
+        <p>
+        Dhanwantari Ashram, Kerala
+        <br>Meenakshi Ashram, Tamil Nadu
+        <br>Tapaswini Ashram, Andra Pradesh
+        <br>Sidhi Kutir, Uttarakhand
+        </p>
+        </font>
+      </div>
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content --><font color="white">
+        <br><br>
+        <p> <img src="logo.png" class="img-fluid" width="200px" alt=""> </p>
+        </font>
+      </div>
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <font color="white">
+        <h6 class="text-uppercase font-weight-bold">HELPLINE INFO </h6>
+        
+        <p>
+        <b>Online Courses:</b>
+        <br>Phone: 9877621261
+        <br>Email: prachigarg3690@gmail.com
+        <br> <br>
+        <b>Regular Courses:</b>
+        <br> Phone: 9877621261
+       <br> Email: prachigarg3690@gmail.com
+        </p>
+        </font>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer">
+ <div class="footer-copyright text-center py-3"><font color="white">© Copyright 2020 </font>
+    <a href="">Ridhi-Sidhi Yoga Centre, India</a>
+  </div>
+</div>
+</footer>
+<script src="./js/jquery-3.5.1.min(1).js"> </script>
+<!--bootstrap js-->
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
